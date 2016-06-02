@@ -1,0 +1,58 @@
+.weather-icon {
+  font-size: 100px;
+}
+
+.weather-item {
+  padding: 15px;
+}
+
+
+.weather-item-inner {
+  text-align: center;
+  height: 300px;
+
+  h3 {
+    text-transform: capitalize;
+  }
+}
+
+.weather-item__add {
+  border: 20px solid #f5f5f5;
+  border-radius: 29px;
+  color: #f5f5f5;
+  line-height: 250px;
+  font-size: 170px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+
+  &:hover {
+    border: 20px solid #e5e5e5;
+    color: #e5e5e5;
+  }
+}
+
+.weather-remove-button {
+  position: absolute;
+  right: 22px;
+  top: 19px;
+  cursor: pointer;
+  color: #444;
+  display: none;
+}
+
+.weather-item:hover {
+  .weather-remove-button {
+    display: block;
+  }
+}
+
+.new-city-input {
+  position: absolute;
+  bottom: 15px;
+  width: 212px;
+  left: 15px;
+}
+
